@@ -8,7 +8,6 @@ import User from '../../icons/User';
 const roleColor = { Administrator: "#2081C3", User: "#68AAAB", Viewer: "#7E7E7E" }
 
 const UserInfo = ({ info }) => {
-  console.log(info)
   const [isClosed, setIsClosed] = useState(true);
 
   const handleClick = () => {
