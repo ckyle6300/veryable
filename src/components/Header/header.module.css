@@ -1,0 +1,30 @@
+#outerDiv {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border-bottom: #888888 3px solid;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+#titleDiv{
+  display: flex;
+  align-items: center;
+}
+
+#imgDiv {
+  display: flex;
+  align-items: center;  
+  margin-right: 1rem;
+}
+
+.logo {
+  height: 4rem;
+  width: 4rem;
+}
+
+.title {
+  color: rgb(93, 91, 91);
+  font-size: 3rem;
+  margin: 0px;
+  font-weight: 400;
+}
