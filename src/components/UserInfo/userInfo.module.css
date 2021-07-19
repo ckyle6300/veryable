@@ -7,6 +7,10 @@
   box-shadow: 5px 5px 5px #888888;
 }
 
+#openOutline{
+  height: 270px;
+}
+
 .outerDiv {
   display: flex;
   justify-content: space-between;
@@ -42,6 +46,10 @@
   width: 2rem;
 }
 
+.hidden {
+  display:none;
+}
+
 #name {
   color: rgb(84, 84, 84);
   font-size: 1.2rem;
@@ -62,3 +70,21 @@
   font-weight: 400;
   margin:0px;
 }
+
+.lowerDiv{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.extInfoTitle {
+  margin: 0;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.extInfo {
+  margin:0;
+  margin-bottom: .4rem;
+  font-size: .9rem;
+}
+
