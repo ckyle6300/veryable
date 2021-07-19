@@ -1,14 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
+import UserList from './components/UserList';
 
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-      <h1>Test</h1>
-    </div>
+      <div>
+        <UserList />
+      </div>
+    </>
   );
 }
 
