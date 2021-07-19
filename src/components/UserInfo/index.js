@@ -57,9 +57,9 @@ const UserInfo = ({ info }) => {
         <p className={styles.extInfoTitle}>Phone</p>
         <p className={styles.extInfo}>{formatPhoneNumber(info.phone)}</p>
         <p className={styles.extInfoTitle}>Created At</p>
-        <p className={styles.extInfo}>{" "}{moment(info.createdAt).format("L, h:mm:ss a")}{" "}</p>
+        <p className={styles.extInfo}>{" "}{moment(info.createdAt).format("L h:mm a")}{" "}</p>
         <p className={styles.extInfoTitle}>Last Logged In</p>
-        <p className={styles.extInfo}>{" "}{moment(info.lastLoggedIn).format("L, h:mm a")}{" "}</p>
+        <p className={styles.extInfo}>{" "}{moment(info.lastLoggedIn).format("L h:mm a")}{" "}</p>
       </div>
     </div >
   )
