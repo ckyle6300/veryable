@@ -15,7 +15,7 @@
 #imgDiv {
   display: flex;
   align-items: center;  
-  margin-right: 1rem;
+  margin-right: .7rem;
 }
 
 .logo {
@@ -25,7 +25,7 @@
 
 .title {
   color: rgb(93, 91, 91);
-  font-size: 3rem;
+  font-size: 2.7rem;
   margin: 0px;
   font-weight: 400;
 }
