@@ -1,0 +1,64 @@
+.outline {
+  height: 80px;
+  width: 350px;
+  background-color: white;
+  margin:0 auto;
+  margin-top: 16px;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.outerDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.innerDiv {
+  display: flex;
+}
+
+.textInfo {
+  padding: .9rem;
+}
+
+.expand {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+
+.imgDiv{
+  display: flex;
+  align-items: center;
+  margin: .1rem;
+}
+
+.userImg{
+  height: 2.8rem;
+  width: 2.8rem;
+}
+
+.expandLogo{
+  height: 2rem;
+  width: 2rem;
+}
+
+#name {
+  color: rgb(84, 84, 84);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin:0px;
+}
+
+#role {
+  color: rgb(84, 84, 84);
+  font-size: 1rem;
+  font-weight: 400;
+  margin:0px;
+}
+
+#email {
+  color: rgb(84, 84, 84);
+  font-size: .8rem;
+  font-weight: 400;
+  margin:0px;
+}

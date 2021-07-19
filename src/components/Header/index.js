@@ -3,7 +3,7 @@ import styles from './header.module.css'
 import Group from '../../icons/Group';
 
 const Header = () => {
-  const logoClr = "#00BFFF";
+  const logoClr = "#2081C3";
   return (
     <div id={styles.outerDiv}>
       <div id={styles.imgDiv}><Group color={logoClr} className={styles.logo} /></div>

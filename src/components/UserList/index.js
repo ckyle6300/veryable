@@ -10,9 +10,9 @@ const UserList = () => {
       {
         usersData.map(info => {
           return (
-            <div key={info.phone}>
-              <UserInfo info={info} />
-            </div>
+            // <div className={styles.outerDiv} key={info.phone}>
+            <UserInfo key={info.phone} info={info} />
+            // </div>
           )
         })
       }
